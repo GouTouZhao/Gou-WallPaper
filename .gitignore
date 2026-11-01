@@ -1,0 +1,80 @@
+# ==============================================================================
+# WallFlow .gitignore - Comprehensive Ignore Rules for Python / PySide6 / Windows
+# ==============================================================================
+
+# --- Python Bytecode & Compilation Caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# --- Virtual Environments ---
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Build, Distribution & Packaging Artifacts ---
+build/
+dist/
+release/
+*.egg-info/
+.eggs/
+*.egg
+*.manifest
+*.spec
+
+# --- Testing & Code Quality Caches ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+nosetests.xml
+coverage.xml
+
+# --- Local Logs & Runtime Temp Files ---
+logs/
+*.log
+*.log.*
+*.tmp
+*.temp
+
+# --- Local Configuration & User State (Do not leak user settings or paths) ---
+config.json
+config.json.bak
+*.corrupted*.json
+settings.json
+*.local
+
+# --- IDEs, Text Editors & Tools ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.user
+*.userosv
+*.sln.docstates
+
+# --- Windows & OS Generated Files ---
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# --- AI Agent / Scratch Data ---
+.system_generated/
+.gemini/
+.user_uploaded/
+scratch/
+
